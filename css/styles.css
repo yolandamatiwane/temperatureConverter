@@ -1,0 +1,32 @@
+#dropD{
+    width: 200px;
+    color: rgb(243, 215, 239);
+    font-size: large;
+    font-weight: 900;
+}
+
+#inputGroupSelect01{
+    width: 50px;
+}
+#cBod{
+    margin: 10px 200px;
+    background-color: rgba(58, 0, 49, 0.63);
+    color: rgb(51, 0, 44);
+    font-size: large;
+    font-weight: 800;
+}
+#inputGroupSelect02{
+    background-color:rgba(210, 120, 159, 0.63);
+}
+#inputGroupSelect01{
+    background-color:rgba(210, 120, 159, 0.63) ;
+}
+#btn{
+    border: 2px solid white;
+    color: white;
+}
+#btn:hover{
+    border: 2px solid pink;
+    background-color: white;
+    color:rgba(210, 120, 159, 0.63);
+}
