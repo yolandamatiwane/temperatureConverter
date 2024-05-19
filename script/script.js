@@ -15,7 +15,7 @@ function check(option1,option2){
         inp2.value = eval(`(${inp1.value}*${9/5}+${32})`)
     }
     if(option1 == 1 && option2 == 3){
-        inp1.value = eval(`${inp1.value}+${273.15}`)
+        inp2.value = eval(`${inp1.value}+${273.15}`)
 
     }
     if(option1 == 2 && option2 == 1){
