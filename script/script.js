@@ -1,6 +1,7 @@
 let inp1 = document.querySelector('[type]')
 let inp2 = document.querySelectorAll('[type]')[1]
 let btn = document.querySelectorAll('.btn')[0]
+let clear = document.querySelector('#btn2')
 let s1 = document.querySelectorAll('[value]')[0]
 let selectFrom1 = document.querySelector('#inputGroupSelect01')
 let selectFrom2 = document.querySelector('#inputGroupSelect02')
@@ -37,4 +38,8 @@ function check(option1,option2){
         inp2.value = inp1.value
     }
 }
+clear.addEventListener('click',()=>{
+    inp2.value = ""
+    inp1.value = ""
+})
 

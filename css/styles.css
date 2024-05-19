@@ -21,11 +21,16 @@
 #inputGroupSelect01{
     background-color:rgba(210, 120, 159, 0.63) ;
 }
-#btn{
+#btn, #btn2{
     border: 2px solid white;
     color: white;
 }
 #btn:hover{
+    border: 2px solid pink;
+    background-color: white;
+    color:rgba(210, 120, 159, 0.63);
+}
+#btn2:hover{
     border: 2px solid pink;
     background-color: white;
     color:rgba(210, 120, 159, 0.63);
