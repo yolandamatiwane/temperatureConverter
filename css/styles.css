@@ -35,3 +35,12 @@
     background-color: white;
     color:rgba(210, 120, 159, 0.63);
 }
+@media(max-width: 800px){
+    #cBod{
+        width: fit-content;
+        height: fit-content;
+        justify-content: center;
+        margin: auto;
+    }
+
+}
